@@ -6,7 +6,7 @@
 # Table of Contents
 
 - [Table of Contents](#-table-of-contents)
-- [ Portfolio - UI Hanilton 🤘](#-about-project-)
+- [ Portfolio - UI Hamilton 🤘](#-about-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
