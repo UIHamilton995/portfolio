@@ -16,7 +16,7 @@ const Contact = (props: Props) => {
       </h1>
     </div>
     <div className="w-3/5 md:w-60 ml-5 md:ml-10">
-      <h3 className="text-2.2xl font-oswald tracking-tighter opacity-80">I'M ALWAYS INTERESTED ABOUT</h3>
+      <h3 className="text-2.2xl font-oswald tracking-tighter opacity-80">I AM ALWAYS INTERESTED ABOUT</h3>
       <div className="flex flex-wrap gap-4">
         <p className="text-1.5xl py-2 px-4 rounded-full border border-black font-orbit">Frontend Development</p>
         <p className="text-1.5xl py-2 px-4 rounded-full border border-black font-orbit">React</p>
