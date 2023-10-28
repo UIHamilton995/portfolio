@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import ScrollLink from './components/ScrollLink';
 import Imu from './assets/imu.png'
 import NavBar from './components/NavBar';
+import { NextSeo } from 'next-seo';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -11,6 +12,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
+    <NextSeo title='🚀UI Hamilton'/>
     <div><NavBar /></div>
     <div className="hero" id="home">
       <div className="hero-overlay">

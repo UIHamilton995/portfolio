@@ -21,9 +21,11 @@ import Slack from './assets/slack.png';
 import SkypeLogo from './assets/skype.png';
 import GMeet from './assets/meet.png';
 import Zoomlogo from './assets/zoom.webp';
+import { NextSeo } from 'next-seo';
 
 const About: React.FC = () => (
   <section className="about" id="about">
+    <NextSeo title='🚀 About'/>
     <div className="about-me">
       <h2 className="text-2xl font-bold mb-4">About Me</h2>
       <p className="mb-4">

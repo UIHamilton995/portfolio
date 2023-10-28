@@ -1,13 +1,16 @@
-import React from 'react'
+import React from 'react';
+import { NextSeo } from 'next-seo';
+
 
 type Props = {}
 
 const Contact = (props: Props) => {
   return (
     <main>
-      <div className="flex h-screen p-5 md:p-10">
+      <NextSeo title='🚀 Contact'/>
+      <div className="flex h-screen p-5 md:p-10" style={{ backgroundImage: "url('https://t3.ftcdn.net/jpg/05/58/61/32/360_F_558613274_Z1zbjnHZKjpnTvvsjfZzYXk2TIeUl54a.jpg')" }}>
     <div className="w-2/5 md:w-40">
-      <h1 className="text-transparent bg-clip-text bg-cover text-9xl font-oswald leading-none tracking-tighter" style={{ backgroundImage: "url('https://t3.ftcdn.net/jpg/05/58/61/32/360_F_558613274_Z1zbjnHZKjpnTvvsjfZzYXk2TIeUl54a.jpg')" }}>
+      <h1 className="bg-clip-text bg-cover text-9xl font-oswald leading-none tracking-tighter text-white">
         I LOVE
         <br />
         COFFEE
@@ -39,7 +42,7 @@ const Contact = (props: Props) => {
       </h3>
       <hr className="border-t-0.5 border-gray-300 w-full my-6" />
       <div className="flex gap-8">
-        <a href="https://github.com/UIHamilton995" target="_blank" rel="noreferrer" className="text-blue-600">GITHUB</a>
+        <a href="https://github.com/UIHamilton995" target="_blank" rel="noreferrer" className=" text-white">GITHUB</a>
         <a href="https://www.linkedin.com/in/hamilton-ude-07744a16a/" target="_blank" rel="noreferrer" className="text-blue-600">LINKEDIN</a>
         <a href="https://twitter.com/UI_Hamilton" target="_blank" rel="noreferrer" className="text-blue-600">TWITTER</a>
       </div>
